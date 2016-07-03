@@ -114,7 +114,7 @@ subject in the treatment group.
 {title:Example}
 
 {pstd}Load Lalonde (1986) dataset {p_end}
-{phang2}{cmd:. use lalonde.dta}  {p_end}
+{phang2}{cmd:. use "lalonde.dta", clear}  {p_end}
 
 {pstd}Load Standardize re75 {p_end}
 {phang2}{cmd:. egen stdre75 = std(re75)}  {p_end}
