@@ -18,3 +18,4 @@ f lpsolver.mata
 
 * net from "https://rawgit.com/igutierrezm/blopmatching/master"
 * net from http://www.stata-journal.com/software/sj7-1
+* net install blopmatching, all force from("https://rawgit.com/igutierrezm/blopmatching/master")
