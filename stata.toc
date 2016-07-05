@@ -1,5 +1,5 @@
 v 3
-d Stata utilities
+d Treatment-effects estimation by BLOP matching
 d by Juan Díaz,    Universidad de Chile, Chile.
 d {space 1}  Tomás Rau,    Universidad de Chile, Chile.
 d {space 1}  Jorge Rivera, Universidad de Chile, Chile.
