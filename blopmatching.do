@@ -283,4 +283,5 @@ st_numscalar("r(Eff)", Reff)
 // ok!
 
 }
+mata mosave blopmatching(), dir(.) replace
 end

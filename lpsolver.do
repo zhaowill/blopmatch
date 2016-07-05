@@ -134,6 +134,7 @@ for (iter=1; iter<=imax; iter++) {
 }
 
 }
+mata mosave lpsolver(), dir(.) replace
 end
 
 // *****************************************************************************
