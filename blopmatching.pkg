@@ -1,15 +1,15 @@
 v 3
 d blopmatching - Treatment-effects estimation by blop matching.
 d blopmatching estimates treatment effects from observational data using blop matching, see Díaz et al. (2015).
-d by Juan Díaz,    Universidad de Chile, Chile.
-d  {space 1} Tomás Rau,    Universidad de Chile, Chile.
+d by Juan Diaz,    Universidad de Chile, Chile.
+d  {space 1} Tomas Rau,    Universidad de Chile, Chile.
 d  {space 1} Jorge Rivera, Universidad de Chile, Chile.
-d  {space 1} Iván Gutiérrez.
+d  {space 1} Ivan Gutiérrez.
 d After installation, type help {bf:blopmatching}.
 d
 d Distribution-Date: 20160702
 d Support:           igutierrezm@fen.uchile.cl
-d References:        Díaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
+d References:        Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
 f blop.mo
 f blopmatching.ado
 f blopmatching.mo
