@@ -140,13 +140,14 @@ subject in the treatment group.
 {phang}Juan Diaz  {space 3}, Universidad de Chile.{p_end}
 {phang}Tomas Rau  {space 3}, Pontificia Universidad Catolica de Chile. {p_end}
 {phang}Jorge Rivera{space 1}, Universidad de Chile.
+{phang}Ivan Gutierrez{space 1}
 
 {marker references}{...}
 {title:References}
 
 {marker DRR2015}{...}
 {phang}
-Díaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
+Diz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
 
 {marker FMW2007}{...}
 {phang}
