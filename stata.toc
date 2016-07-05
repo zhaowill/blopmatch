@@ -3,7 +3,7 @@ d Treatment-effects estimation by BLOP matching
 d by Juan Diaz,    Universidad de Chile, Chile.
 d {space 1}  Tomas Rau,    Universidad de Chile, Chile.
 d {space 1}  Jorge Rivera, Universidad de Chile, Chile.
-d {space 1}  Ivan Gutiérrez.
+d {space 1}  Ivan Gutierrez.
 d
 *t blopimputation blop imputation (work in progress)
 p blopmatching   blop matching
