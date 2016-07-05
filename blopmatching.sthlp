@@ -116,7 +116,7 @@ subject in the treatment group.
 {pstd}Load Lalonde (1986) dataset {p_end}
 {phang2}{cmd:. use "lalonde.dta", clear}  {p_end}
 
-{pstd}Load Standardize re75 {p_end}
+{pstd}Standardize re75 {p_end}
 {phang2}{cmd:. egen stdre75 = std(re75)}  {p_end}
 
 {pstd}Estimate the average treatment effect of {it:treat} on {it:re78} using {it:age education black hispanic married nodegree stdre75} as control variables: {p_end}

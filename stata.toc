@@ -3,6 +3,7 @@ d Stata utilities
 d by Juan Díaz,    Universidad de Chile, Chile.
 d {space 1}  Tomás Rau,    Universidad de Chile, Chile.
 d {space 1}  Jorge Rivera, Universidad de Chile, Chile.
+d {space 1}  Iván Gutiérrez.
 d
-t blopimputation blop imputation (work in progress)
+*t blopimputation blop imputation (work in progress)
 p blopmatching   blop matching
