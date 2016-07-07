@@ -16,7 +16,7 @@ hence the name of the method.
 Installation
 ============
 
-Use the Stata net command. Within Stata, do::
+Within Stata, do::
 
   net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
