@@ -26,7 +26,7 @@ Syntax
 
    blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
-where the first varname represent the outcome variable, the second varname is the treatment variable, and varlist is the covariate list, type::
+where the outcome() must contain the outcome variable; treatment(), the treatment variable; and varlist, the covariate list. Type::
 
   help blopmatching
 
