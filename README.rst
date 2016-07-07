@@ -19,7 +19,7 @@ Within Stata, type::
   net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
 
-Syntax
+Usage
 ############
 
 :: 
@@ -30,7 +30,7 @@ where the ``outcome()`` must contain the outcome variable; ``treatment()``, the 
 
    help blopmatching
    
-for aditional details.
+for aditional details and examples.
 
 References 
 ==========
