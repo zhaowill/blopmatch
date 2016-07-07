@@ -23,6 +23,7 @@ Syntax
 ############
 
 :: 
+
    blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
 where the first varname is the outcome variable, the second varname is the treatment variable, and the last varlist contains the covariates, type::
