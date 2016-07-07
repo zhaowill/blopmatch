@@ -17,7 +17,7 @@ f blopmatching.sthlp
 f lalonde.dta
 f lpsolver.mo
 
-* cd "C:\Users\Pedro\Google Drive\Investigacion"
+* cd "C:\Users\Pedro\Google Drive\Investigacion" /* cualquier lugar que te acomode*/
 * net from "https://rawgit.com/igutierrezm/blopmatching/master"
 * net from http://www.stata-journal.com/software/sj7-1
 * net install blopmatching, all force from("https://rawgit.com/igutierrezm/blopmatching/master")
