@@ -6,9 +6,9 @@ BLOP matching imputes the missing potential outcome for each subject by using an
 of the outcomes of all the subjects that receive the other treatment level.
 The vector of weights for each subject is determined by solving a Bi-Level Optimization Problem (BLOP).
 
-
+------------
 Installation
-############
+------------
 
 Within Stata, type::
 
