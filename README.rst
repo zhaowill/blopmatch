@@ -14,7 +14,7 @@ see Díaz, Rau and Rivera (2015) for details.
 Installation
 ############
 
-Within Stata, do::
+Within Stata, type::
 
   net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
@@ -29,6 +29,12 @@ Syntax
 :: 
 
    blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
+
+type::
+
+  help blopmatching
+
+for details
 
 References 
 ==========
