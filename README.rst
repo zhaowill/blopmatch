@@ -1,4 +1,5 @@
 .. |br| raw:: html
+   <br />
 
 blopmatching - BLOP matching for Stata
 ==========================================
