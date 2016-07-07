@@ -20,6 +20,10 @@ Within Stata, do::
 
   net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
+after installation, type::
+
+  help blopmatching
+
 References 
 ==========
 
