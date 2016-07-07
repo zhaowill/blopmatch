@@ -21,5 +21,9 @@ Within Stata, do::
   net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
 
-Usage
-=====
+References
+==========
+
+Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
+
+.. Update README.rst
