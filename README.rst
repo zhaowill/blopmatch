@@ -27,6 +27,11 @@ after installation, type::
 
   help blopmatching
 
+Installation
+############
+
+:: blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
+
 References 
 ==========
 
