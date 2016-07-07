@@ -28,9 +28,7 @@ References
 |            *Review of Economics & Statistics* 97(4): 803-812.
 
 This is a top-level paragraph.
-
     This paragraph belongs to a first-level block quote.
-
     Paragraph 2 of the first-level block quote.
     
 .. Update README.rst
