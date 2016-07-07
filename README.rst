@@ -1,7 +1,7 @@
 # blopmatching.ado - BLOP matching using Stata
 Treatment Effects estimation using BLOP matching
 
-Match.jl --- Advanced Pattern Matching for Julia
+blopmatching.ado - BLOP matching for Stata
 ================================================
 
 .. module:: Match
