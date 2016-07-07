@@ -1,5 +1,3 @@
-.. role:: red
-
 blopmatching - BLOP matching for Stata
 ==========================================
 
