@@ -16,14 +16,14 @@ see Díaz, Rau and Rivera (2015).
 
 
 Installation
-============
+########
 
 Within Stata, do::
 
   net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
 References 
-==========
+########
 
 Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. An example of using :red:`interpreted text` *Review of Economics & Statistics* 97(4): 803-812.
 
