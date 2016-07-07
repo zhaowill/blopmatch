@@ -1,6 +1,6 @@
 .. role:: red
 
-blopmatching.ado - BLOP matching for Stata
+blopmatching - BLOP matching for Stata
 ==========================================
 
 blopmatching estimates treatment effects from observational data by BLOP matching.
@@ -16,7 +16,7 @@ see Díaz, Rau and Rivera (2015).
 
 
 Installation
-########
+############
 
 Within Stata, do::
 
@@ -25,6 +25,6 @@ Within Stata, do::
 References 
 ==========
 
-Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem.                
-  *Review of Economics & Statistics* 97(4): 803-812.
+ Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem.                
+ *Review of Economics & Statistics* 97(4): 803-812.
 
