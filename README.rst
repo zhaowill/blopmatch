@@ -26,9 +26,9 @@ after installation, type::
 Syntax
 ############
 
-a:: 
+:: 
 
-blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
+   blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
 References 
 ==========
