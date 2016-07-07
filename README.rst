@@ -18,19 +18,18 @@ Within Stata, type::
 Usage
 ############
 
-:: 
+::
 
    blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
-where the ``outcome()`` must contain the outcome variable; ``treatment()``, the treatment variable; and ``varlist``, the covariates. Type:: 
+where the ``outcome()`` must contain the outcome variable, ``treatment()`` must contain the treatment variable, and ``varlist`` must contain the covariates. Type:: 
 
    help blopmatching
-   
+
 for aditional details and examples.
 
-References 
+References
 ##########
 
- Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem.                
+ Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem.
   *Review of Economics & Statistics* 97(4): 803-812.
-
