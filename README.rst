@@ -29,7 +29,7 @@ References
 
 | Each new line begins with a
 | vertical bar ("|").
-|     Line breaks and initial indents
+    |     Line breaks and initial indents
 |     are preserved.
 
 .. Update README.rst
