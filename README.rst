@@ -11,11 +11,6 @@ The vector of weights for each subject is determined by solving a Bi-Level Optim
 see Díaz, Rau and Rivera (2015) for details.
 
 
-* Matching against almost any data type with a first-match policy
-* Deep matching within data types and matrices
-* Variable binding within matches
-
-
 Installation
 ############
 
@@ -27,10 +22,11 @@ after installation, type::
 
   help blopmatching
 
-Installation
+
+Syntax
 ############
 
-:: 
+a:: 
 
 blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
