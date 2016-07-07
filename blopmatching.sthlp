@@ -116,11 +116,8 @@ subject in the treatment group.
 {pstd}Load Lalonde (1986) dataset {p_end}
 {phang2}{cmd:. use "lalonde.dta", clear}  {p_end}
 
-{pstd}Standardize re75 {p_end}
-{phang2}{cmd:. egen stdre75 = std(re75)}  {p_end}
-
-{pstd}Estimate the average treatment effect of {it:treat} on {it:re78} using {it:age education black hispanic married nodegree stdre75} as control variables: {p_end}
-{phang2}{cmd:. blopmatching, outcome(re78) treatment(treat) controls(age education black hispanic married nodegree stdre75)} {p_end}
+{pstd}Estimate the average treatment effect of {it:treat} on {it:re78} using {it:age education black hispanic married nodegree re74 re75} as control variables: {p_end}
+{phang2}{cmd:. blopmatching, outcome(re78) treatment(treat) controls(age education black hispanic married nodegree re74 re75)} {p_end}
 
 
 {marker notes}{...}
@@ -147,7 +144,7 @@ subject in the treatment group.
 
 {marker DRR2015}{...}
 {phang}
-Diz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
+Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
 
 {marker FMW2007}{...}
 {phang}
