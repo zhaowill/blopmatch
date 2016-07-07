@@ -25,6 +25,6 @@ References
 ==========
 
 | Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. 
-|    *Review of Economics & Statistics* 97(4): 803-812.
+|     *Review of Economics & Statistics* 97(4): 803-812.
 
 .. Update README.rst
