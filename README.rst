@@ -30,7 +30,9 @@ after installation, type::
 Installation
 ############
 
-:: blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
+:: 
+
+blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
 References 
 ==========
