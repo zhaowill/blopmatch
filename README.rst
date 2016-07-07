@@ -18,23 +18,18 @@ Within Stata, type::
 
   net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
-after installation, type::
-
-  help blopmatching
-
 
 Syntax
 ############
 
 :: 
-
    blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
-type::
+where the first varname is the outcome variable, the second varname is the treatment variable, and the last varlist contains the covariates, type::
 
   help blopmatching
 
-for details
+for aditional details.
 
 References 
 ==========
