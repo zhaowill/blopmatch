@@ -16,9 +16,10 @@ hence the name of the method.
 Installation
 ============
 
-Use the Julia package manager.  Within Julia, do::
+Use the Stata net command. Within Stata, do::
 
-  Pkg.add("Match")
+  net from "https://rawgit.com/igutierrezm/blopmatching/master"
 
 
 Usage
+=====
