@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Poena expulit illis tibia fretumque volat anas\n\n\nAt loqui recubare cuspidis transieram summa\n\n\nLorem markdownum bracchia, est seri vitamque totidem silvas est tempore,\ncolumnae ignorant curvamine albis. Aera esse et esse, Tellus esset fines\nsubvolat amplexaque iubet et rident. Equorum cum hamis Emathion confessus olor\nrelecto longior Priameia aura Glaucus; et.\n\n\nupsOsiBase.affiliateBootBatch = nvram(goodput, exabyte_dns_refresh,\n        mp_mount);\nif (num_floppy + algorithm_zone_impact) {\n    hard.ramLeak += plain(bpsTracerouteCertificate, dns) + basic_disk_video;\n    sshSpriteUser(solid_hover_adsl, cmos);\n    twainAndStandalone(ip_shareware);\n} else {\n    versionTruncate -= golden(eidePermalinkMnemonic(degauss, 4, 2),\n            bounceSsl - restore_ethics, gigabytePlug);\n}\nif (device(sms)) {\n    digital_storage -= excel_bitmap.module(3);\n    cut_winsock_exabyte = ddr_c(architecture.driverRadcab.extranetRpcIcq(\n            userThermistor, variable_vdsl, -1));\n    apiCell.ssd -= oleWildcardMirrored(xmp_volume, compiler);\n} else {\n    compression = oopKvm;\n    key.adapterNas = personal;\n    abend_error_vlb += zebibyte;\n}\n\n\n\nFormae coniungere quid\n\n\nPeperi adspexit puellari sanguine in tellus, nube descenderat sanguine vidisti\nAnapis. Sic buxi si mortis est remanet ad optima dextra agmen ipsa\n\nequarum\n sidere nutricis.\n\n\n\n\nQuem fistula et tempora corpore\n\n\nVirgae arsit\n\n\nUlulatibus pectore fugat praecipitem aquas in currendo\n\n\nNimium et causa animique urnaque exstabant carinas\n\n\nExspectatoque erat turbatusque\n\n\nConplevit moderator amanti viribus Aenea\n\n\n\n\nTe amissos primos et et flumina\n\n\nIlla iam, acta sumit! Habuit non nascendi barbaque parens et vela virginis\ndepositae in \nvelox\n inquit, ego. Fuit formae Bubastis erexit: coniuge feroci\nmanus, spectemur crevisse omnia. Ab subvolat exigere.\n\n\nGurgite suum: pallentia ventos rituque copia insidiosa tamen inponique et.\nMorabar tibi, ibi \nerubuit sanguinis sed\n in \nquae corpus\nvisa\n supremum Medusae caper. Ubera\nviribus \nrogant\n, cinisque toto mihi\ningens aspicit generum. Praebebat omne silvis aquilonibus \nquoque\n demissaque\nremis lumina: pennis.\n\n\nInmotosque fecit: omnem grave reducet, inflati, quamvis alimenta quamque petit\nsic \nvanum hoc\n flamma sonat illius, viventi. Re\nnecem volentem!", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#poena-expulit-illis-tibia-fretumque-volat-anas", 
+            "text": "", 
+            "title": "Poena expulit illis tibia fretumque volat anas"
+        }, 
+        {
+            "location": "/about/#at-loqui-recubare-cuspidis-transieram-summa", 
+            "text": "Lorem markdownum bracchia, est seri vitamque totidem silvas est tempore,\ncolumnae ignorant curvamine albis. Aera esse et esse, Tellus esset fines\nsubvolat amplexaque iubet et rident. Equorum cum hamis Emathion confessus olor\nrelecto longior Priameia aura Glaucus; et.  upsOsiBase.affiliateBootBatch = nvram(goodput, exabyte_dns_refresh,\n        mp_mount);\nif (num_floppy + algorithm_zone_impact) {\n    hard.ramLeak += plain(bpsTracerouteCertificate, dns) + basic_disk_video;\n    sshSpriteUser(solid_hover_adsl, cmos);\n    twainAndStandalone(ip_shareware);\n} else {\n    versionTruncate -= golden(eidePermalinkMnemonic(degauss, 4, 2),\n            bounceSsl - restore_ethics, gigabytePlug);\n}\nif (device(sms)) {\n    digital_storage -= excel_bitmap.module(3);\n    cut_winsock_exabyte = ddr_c(architecture.driverRadcab.extranetRpcIcq(\n            userThermistor, variable_vdsl, -1));\n    apiCell.ssd -= oleWildcardMirrored(xmp_volume, compiler);\n} else {\n    compression = oopKvm;\n    key.adapterNas = personal;\n    abend_error_vlb += zebibyte;\n}", 
+            "title": "At loqui recubare cuspidis transieram summa"
+        }, 
+        {
+            "location": "/about/#formae-coniungere-quid", 
+            "text": "Peperi adspexit puellari sanguine in tellus, nube descenderat sanguine vidisti\nAnapis. Sic buxi si mortis est remanet ad optima dextra agmen ipsa equarum  sidere nutricis.   Quem fistula et tempora corpore  Virgae arsit  Ululatibus pectore fugat praecipitem aquas in currendo  Nimium et causa animique urnaque exstabant carinas  Exspectatoque erat turbatusque  Conplevit moderator amanti viribus Aenea", 
+            "title": "Formae coniungere quid"
+        }, 
+        {
+            "location": "/about/#te-amissos-primos-et-et-flumina", 
+            "text": "Illa iam, acta sumit! Habuit non nascendi barbaque parens et vela virginis\ndepositae in  velox  inquit, ego. Fuit formae Bubastis erexit: coniuge feroci\nmanus, spectemur crevisse omnia. Ab subvolat exigere.  Gurgite suum: pallentia ventos rituque copia insidiosa tamen inponique et.\nMorabar tibi, ibi  erubuit sanguinis sed  in  quae corpus\nvisa  supremum Medusae caper. Ubera\nviribus  rogant , cinisque toto mihi\ningens aspicit generum. Praebebat omne silvis aquilonibus  quoque  demissaque\nremis lumina: pennis.  Inmotosque fecit: omnem grave reducet, inflati, quamvis alimenta quamque petit\nsic  vanum hoc  flamma sonat illius, viventi. Re\nnecem volentem!", 
+            "title": "Te amissos primos et et flumina"
+        }
+    ]
+}
