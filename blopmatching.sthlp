@@ -60,9 +60,9 @@ controls({it:varlist})
 {title:Description}
 
 {pstd}{bf:blopmatching} estimates treatment effects from observational data by blop matching.
-blop matching imputes the missing potential outcome for each subject by using an weighted
+blop matching imputes the missing potential outcome for each subject by using a weighted
 average of the outcomes of all the subjects that receive the other treatment level.
-The vector of weights for each subject is determined by solving a Bi-Level Optimization Problem (blop).
+The vector of weights for each subject is determined by solving a Bi-Level Optimization Problem (BLOP).
 
 {pstd}{space 2}- In the 1st optimization problem, the program finds a set of weights such
 that the weighted sum of the observations [note 1] has exactly the same covariate values as the unit to be {p_end}
@@ -102,11 +102,11 @@ subject in the treatment group.
 {phang}
 {opt otol}{space 7} Let (P) be a standard LP problem and let c be the current reduced cost.
                     It is well known that if c > 0 the current solution is optimal. {p_end}
-{space 5}           However, this rule is impractical due to round-off errors. otol relax this condition.
+{space 5}           However, this rule is impractical due to round-off errors. otol relax this condition to c + otol > 0.
 {p 4 4 2}
 {opt btol}{space 7} Let (P) be a standard LP problem and let d be the current pivot column.
                     It is well known that if d < 0 the problem is unbounded. {p_end}
-{space 5}           However, this rule is impractical due to round-off errors. btol relax this condition.
+{space 5}           However, this rule is impractical due to round-off errors. btol relax this condition to d < btol.
 {phang}
 
 
