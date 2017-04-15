@@ -64,10 +64,10 @@ matrix rownames `V' = "ATE" "ATT"  // Labels
 * 7. Printed results
 display as text ""
 display as res  "Treatment-Effects Estimation"      as text  _column(47)
-display as text "Method                   : blop matching"   _column(47)
-display as text "LP Solution Method       : Revised Simplex" _column(47)        "No of   treated Units = " %8.0f  `N1'
-display as text "1st Step Norm            : Norm-1"          _column(47)        "No of untreated Units = " %8.0f  `N2'
-display as text "2nd Step Distance Metric : Euclidean Norm"  _column(47)        "Solver Efficacy       = " %8.0f `Eff'
+display as text "Method                   : Blop Matching"   _column(47)
+display as text "LP Solution Method       : Revised Simplex" _column(47)        "No of   treated units = " %8.0f  `N1'
+display as text "1st Step Norm            : Norm-1"          _column(47)        "No of untreated units = " %8.0f  `N2'
+display as text "2nd Step Distance Metric : Euclidean Norm"  _column(47)        "Solver efficacy       = " %8.0f `Eff'
 ereturn post `b' `V', esample(`touse')
 ereturn display, level(`level')
 if ("`dcvar'" == "") {
