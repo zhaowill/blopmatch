@@ -4,6 +4,4 @@ d by Juan Diaz,    Universidad de Chile, Chile.
 d {space 1}  Tomas Rau,    Universidad de Chile, Chile.
 d {space 1}  Jorge Rivera, Universidad de Chile, Chile.
 d {space 1}  Ivan Gutierrez.
-d
-*t blopimputation blop imputation (work in progress)
-p blopmatching   blop matching
+p blopmatching   Treatment effects estimation by BLOP-Matching.

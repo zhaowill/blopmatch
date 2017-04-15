@@ -11,10 +11,10 @@ cd "C:\Users\ivang\Documents\GitHub\blopmatching"
 * Programas Auxiliares
 * run blopmatching.ado
 * run blop.mata
-* run lpsolver.mata
-* run blopmatching.mata
+* run lpsolver.mata  
+* run blopmatching.mata 
 * Eventualmente, el usuario podrá instalar todo de la manera usual.
-quietly : net from "https://rawgit.com/igutierrezm/blopmatching/master"
+net from "https://rawgit.com/igutierrezm/blopmatching/master"
 net install blopmatching, replace
 net get blopmatching
 
@@ -34,8 +34,8 @@ teffects nnmatch (`y' `x') (`w'), ate metric(euclidean) nneighbor(04)
 teffects nnmatch (`y' `x') (`w'), ate metric(euclidean) nneighbor(16)
 teffects nnmatch (`y' `x') (`w'), ate metric(euclidean) nneighbor(64)
 
-* Estimacion del ATE via BLOP-Matching
-blopmatching, outcome(`y') treatment(`w') covariates(`x') dcvar
-
-* Ayuda del programa
-help blopmatching
+// * Estimacion del ATE via BLOP-Matching
+// blopmatching, outcome(`y') treatment(`w') covariates(`x') dcvar
+//
+// * Ayuda del programa
+// help BLOPmatching
