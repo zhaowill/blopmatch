@@ -13,14 +13,14 @@
 {title:Title}
 
 {phang}
-{bf:blopmatching} {hline 2} Treatment effects estimation by BLOP-Matching.
+{bf:blopmatch} {hline 2} Treatment effects estimation by blop-matching.
 
 
 {marker syntax}{...}
 {title:Syntax}
 
 {phang}
-{cmdab:blopmatching}
+{cmdab:blopmatch}
 {ifin}
 {cmd:, }
 outcome({it:varname})
@@ -34,7 +34,7 @@ covariates({it:varlist})
 {syntab:Variables}
 {synopt :{opt outcome}  }Outcome variable.   {p_end}
 {synopt :{opt treatment}}Treatment variable. {p_end}
-{synopt :{opt controls} }Covariate(s).       {p_end}
+{synopt :{opt covariates}}Covariate(s).      {p_end}
 {synoptline}
 
 {synoptset 20 tabbed}{...}
