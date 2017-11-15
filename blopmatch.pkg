@@ -1,5 +1,5 @@
 v 3
-d blopmatching - Treatment-effects estimation by blop matching.
+d blopmatch - Treatment-effects estimation by blop-matching.
 d blopmatching estimates treatment effects from observational data using blop matching, see Diaz et al. (2015).
 d by Juan Diaz,    Universidad de Chile, Chile.
 d  {space 1} Tomas Rau,    Universidad de Chile, Chile.
