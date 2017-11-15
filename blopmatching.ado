@@ -1,5 +1,5 @@
-capture program drop blopmatching
-program define blopmatching, eclass byable(recall)
+capture program drop blopmatch
+program define blopmatch, eclass byable(recall)
 version 13.0
 syntax [if] [in],           ///
 	outcome(varname)        ///
