@@ -4,4 +4,4 @@ d by Juan Diaz,    Universidad de Chile.
 d {space 1}  Tomas Rau,    Pontificia Universidad Católica de Chile.
 d {space 1}  Jorge Rivera, Universidad de Chile.
 d {space 1}  Ivan Gutierrez.
-p blopmatching   Treatment effects estimation by blop-matching.
+p blopmatch   Treatment effects estimation by blop-matching.
