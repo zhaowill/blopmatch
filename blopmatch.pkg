@@ -5,7 +5,7 @@ d by Juan Diaz,    Universidad de Chile, Chile.
 d  {space 1} Tomas Rau,    Universidad de Chile, Chile.
 d  {space 1} Jorge Rivera, Universidad de Chile, Chile.
 d  {space 1} Ivan Gutierrez.
-d After installation, type help {bf:blopmatching}.
+d After installation, type help {bf:blopmatch}.
 d
 d Distribution-Date: 20160702
 d Support:    igutierrezm@fen.uchile.cl
@@ -13,6 +13,6 @@ d References: Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Base
 f blop.mo
 f blopmatch.ado
 f blopmatching.mo
-f blopmatching.sthlp
+f blopmatch.sthlp
 f lalonde.dta
 f lpsolver.mo
