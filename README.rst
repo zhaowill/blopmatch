@@ -1,8 +1,8 @@
-blopmatching - BLOP matching for Stata
+blopmatch: blop-matching for Stata
 ==========================================
 
-blopmatching estimates treatment effects from observational data by BLOP matching.
-BLOP matching imputes the missing potential outcome for each subject by using an weighted average
+blopmatch estimates treatment effects from observational data by blop-matching.
+blop-matching imputes the missing potential outcome for each subject by using an weighted average
 of the outcomes of all the subjects that receive the other treatment level.
 The vector of weights for each subject is determined by solving a Bi-Level Optimization Problem (BLOP).
 
@@ -12,7 +12,7 @@ Installation
 
 Within Stata, type::
 
-  net from "https://rawgit.com/igutierrezm/blopmatching/master"
+  net from "https://rawgit.com/igutierrezm/blopmatch/master"
 
 
 Usage
@@ -20,11 +20,11 @@ Usage
 
 ::
 
-   blopmatching [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
+   blopmatch [if] [in] , outcome(varname) treatment(varname) controls(varlist) [options]
 
 where the ``outcome()`` must contain the outcome variable, ``treatment()`` must contain the treatment variable, and ``varlist`` must contain the covariates. Type:: 
 
-   help blopmatching
+   help blopmatch
 
 for aditional details and examples.
 
