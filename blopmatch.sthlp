@@ -1,14 +1,14 @@
 {smcl}
 {* *! version 1.0.0 19jun2015}{...}
 {vieweralsosee "[R] help" "help help "}{...}
-{viewerjumpto "Syntax" "blopmatching##syntax"}{...}
-{viewerjumpto "Description" "blopmatching##description"}{...}
-{viewerjumpto "Remarks" "blopmatching##remarks"}{...}
-{viewerjumpto "Options Details" "blopmatching##options"}{...}
-{viewerjumpto "Examples" "blopmatching##examples"}{...}
-{viewerjumpto "Notes" "blopmatching##notes"}{...}
-{viewerjumpto "Authors" "blopmatching##authors"}{...}
-{viewerjumpto "References" "blopmatching##references"}{...}
+{viewerjumpto "Syntax" "blopmatch##syntax"}{...}
+{viewerjumpto "Description" "blopmatch##description"}{...}
+{viewerjumpto "Remarks" "blopmatch##remarks"}{...}
+{viewerjumpto "Options Details" "blopmatch##options"}{...}
+{viewerjumpto "Examples" "blopmatch##examples"}{...}
+{viewerjumpto "Notes" "blopmatch##notes"}{...}
+{viewerjumpto "Authors" "blopmatch##authors"}{...}
+{viewerjumpto "References" "blopmatch##references"}{...}
 
 {title:Title}
 
@@ -59,7 +59,7 @@ covariates({it:varlist})
 {marker description}{...}
 {title:Description}
 
-{pstd}{bf:blopmatching} estimates treatment effects from observational data by BLOP-Matching.
+{pstd}{bf:blopmatch} estimates treatment effects from observational data by BLOP-Matching.
 BLOP-Matching imputes the missing potential outcome for each subject by using a weighted
 average [note 1] of the outcomes of all the subjects that receive the other treatment level.
 The vector of weights for each subject is determined by solving a Bi-Level Optimization Problem (BLOP) [note 2].
@@ -71,7 +71,7 @@ between the observed and imputed potential outcomes for each subject.{p_end}
 of the difference between the observed and imputed potential outcomes for each
 subject in the treatment group.{p_end}
 
-{pstd}See {help blopmatching##DRR2015:Rivera et al.(2015)} for more details.
+{pstd}See {help blopmatch##DRR2015:Rivera et al.(2015)} for more details.
 
 {marker options}{...}
 {title:Options}
@@ -115,7 +115,7 @@ btol relax this condition to d < btol.
 {phang2}{cmd:. use "lalonde.dta", clear}  {p_end}
 
 {pstd}Estimate the average treatment effect of {it:treat} on {it:re78} using {it:age education black hispanic married nodegree re74 re75} as control variables: {p_end}
-{phang2}{cmd:. blopmatching, outcome(re78) treatment(treat) controls(age education black hispanic married nodegree re74 re75)} {p_end}
+{phang2}{cmd:. blopmatch, outcome(re78) treatment(treat) covariates(age education black hispanic married nodegree re74 re75)} {p_end}
 
 {marker notes}{...}
 {title:Notes}
@@ -123,7 +123,7 @@ btol relax this condition to d < btol.
 {phang}[1] The weights are meant to be positives and sum one, so weighted sums are in fact convex combinations. {p_end}
 {phang}[2] It can be shown that each of this 2 problems can be rewritten as a LP. Unfortunately, mata still doesn't have an official LP solver,
 so we created our own LP solver from scratch. This solver, lpsolver.mata, is an inefficient (but reliable) implementation of the revised simplex algorithm.
-See {help blopmatching##FMW2007:Ferris et al.(2007)} for more details. {p_end}
+See {help blopmatch##FMW2007:Ferris et al.(2007)} for more details. {p_end}
 {phang}[3] ATE means {it: average treatment effect}. {p_end}
 {phang}[4] ATT means {it: average treatment effect on the treated}.
 
