@@ -24,7 +24,7 @@ Usage
 
 where the ``outcome()`` must contain the outcome variable, ``treatment()`` must contain the treatment variable, and ``varlist`` must contain the covariates. Type:: 
 
-   help blopmatch
+   help blopmatching
 
 for aditional details and examples.
 
