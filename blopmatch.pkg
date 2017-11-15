@@ -11,7 +11,7 @@ d Distribution-Date: 20160702
 d Support:    igutierrezm@fen.uchile.cl
 d References: Diaz, J., Rau, T., and J. Rivera (2015). A Matching Estimator Based on a Bilevel Optimization Problem. {it:Review of Economics & Statistics} 97(4): 803-812.
 f blop.mo
-f blopmatching.ado
+f blopmatch.ado
 f blopmatching.mo
 f blopmatching.sthlp
 f lalonde.dta
